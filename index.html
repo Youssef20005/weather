@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather API</title>
+</head>
+<body>
+
+    <div class="cointainer-api min-vh-100">
+        <div class="container py-5 px-5 text-center">
+            <!-- //search input -->
+            <div class="input-group mb-3">
+                <input id="search" type="text" class="form-control w-100 mx-auto px-3 rounded-5" placeholder="Enter city name">
+      <!--   <button class="btn btn-outline-info rounded-5 mt-3 m-auto px-5" id="btnFind">find</button> -->
+            </div>
+            <div class="row g-1 mt-4">
+                <!-- ?today -->
+            <div class="col-md-4">
+                <div class="item">
+<div class="d-flex justify-content-between py-2 px-3 bg-secondary rounded-4 text-white" id="today-data">
+    <p id="today-day">Tuesday</p>
+   <span>
+    <span id="today-num">1</span>
+    <span id="today-month">January</span>
+   </span>
+</div>
+<div class="details text-start px-3 py-5 pt-5 bg-light">
+    <p class="text-capitalize fs-4" id="cityName">Cairo</p>
+    <div class="d-flex justify-content-between align-items-center">
+       <span class="fs-1 fw-bolder">
+        <span id="today-temp">
+            30
+        </span>
+        <span><sup>O</sup>C</span>
+       </span>
+       <img src="imgs/113.png" id="today-img">
+    </div>
+    <p id="today-status" class="fs-6 text-black">clear</p>
+    
+</div>
+<div class="item-footer d-flex text-light p-3 bg-secondary rounded-2">
+    
+    <div class="d-flex me-3">
+        <img src="imgs/icon-umberella@2x.png" class="footer-icon mx-2">
+        <p id="humditiy">30</p>
+    </div>
+    <div class="d-flex me-3">
+        <img src="imgs/icon-wind@2x.png" class="footer-icon mx-2">
+        <p id="wind">30Km/h</p>
+    </div>
+    <div class="d-flex">
+        <img src="imgs/icon-compass@2x.png" class="footer-icon mx-2">
+        <p id="wind-direction">NNE</p>
+    </div>
+</div>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+<div class="d-flex justify-content-between py-2 px-3 bg-secondary rounded-4 text-white" id="tomorrow-data">
+    <p class="next-day m-auto">Wednesday</p>
+</div>
+<div class="details text-start px-3 py-3 pt-5 bg-light text-center">
+    <img class="next-condition-image" src="imgs/113.png" id="tomorrow-img">
+   
+      <h3>
+        <span class="next-max-temp">
+            21.1
+        </span>
+        <span><sup>O</sup>C</span>
+      </h3>
+      <h5>
+        <span class="next-min-temp">
+            15
+        </span>
+        <span><sup>O</sup>C</span>
+      </h5>
+       
+       
+    
+    <p class="tomorrow-status fs-6 text-black">Sunny</p>
+    
+</div>
+<div class="item-footer d-flex text-light py-5 bg-secondary rounded-2">
+ <!--    
+    <div class="d-flex me-3">
+        <img src="imgs/icon-umberella@2x.png" class="footer-icon mx-2">
+        <p id="humditiy">30</p>
+    </div>
+    <div class="d-flex me-3">
+        <img src="imgs/icon-wind@2x.png" class="footer-icon mx-2">
+        <p id="wind">30Km/h</p>
+    </div>
+    <div class="d-flex">
+        <img src="imgs/icon-compass@2x.png" class="footer-icon mx-2">
+        <p id="wind-direction">NNE</p>
+    </div> -->
+</div>
+
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+<div class="d-flex justify-content-between py-2 px-3 bg-secondary rounded-4 text-white" id="tomorrow-data">
+    <p class="next-day m-auto">Wednesday</p>
+</div>
+<div class="details text-start px-3 py-3 pt-5 bg-light text-center">
+    <img class="next-condition-image" src="imgs/113.png" id="tomorrow-img">
+   
+      <h3>
+        <span class="next-max-temp">
+            21.1
+        </span>
+        <span><sup>O</sup>C</span>
+      </h3>
+      <h5>
+        <span class="next-min-temp">
+            15
+        </span>
+        <span><sup>O</sup>C</span>
+      </h5>
+       
+       
+    
+    <p class="tomorrow-status fs-6 text-black">Sunny</p>
+    
+</div>
+<div class="item-footer d-flex text-light py-5 bg-secondary rounded-2">
+ <!--    
+    <div class="d-flex me-3">
+        <img src="imgs/icon-umberella@2x.png" class="footer-icon mx-2">
+        <p id="humditiy">30</p>
+    </div>
+    <div class="d-flex me-3">
+        <img src="imgs/icon-wind@2x.png" class="footer-icon mx-2">
+        <p id="wind">30Km/h</p>
+    </div>
+    <div class="d-flex">
+        <img src="imgs/icon-compass@2x.png" class="footer-icon mx-2">
+        <p id="wind-direction">NNE</p>
+    </div> -->
+</div>
+
+                    </div>
+            </div>
+            
+           
+
+    </div>
+    </div>
+    
+
+
+
+
+
+</div>
+   
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js" defer></script>
+</body>
+</html>
